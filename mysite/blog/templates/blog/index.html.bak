@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Index</title>
+</head>	
+<body>
+	<h1>Welcome, {{ username }}</h1>
+	<br>
+	<a href="{% url 'blog:logout'%}">logout</a>	
+	<br>
+	<a href="{% url 'blog:login' %}">login</a>	
+	<br>
+	<a href="{% url 'blog:regist' %}">regist</a>	
+	<br>
+</body>
+
+</html>
