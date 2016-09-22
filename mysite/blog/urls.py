@@ -9,4 +9,6 @@ urlpatterns = [
 		url(r'^login/$', views.userLogin, name='userlogin'),
 		url(r'^doLogin/$', views.doLogin, name='doLogin'),
 		url(r'^logout/$', views.logout, name='logout'),
+		url(r'^mypage/$', views.mypage, name='mypage'),
+		url(r'^(?P<article_id>[0-9]+)/$', views.detail, name='detail'),
 ]

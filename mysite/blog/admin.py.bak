@@ -1,4 +1,8 @@
 from django.contrib import admin
-from django.models import Article
+from blog.models import Article
+import sys
+
+reload(sys)
+sys.setdefaultecodeing("utf8")
 # Register your models here.
 admin.site.register(Article)
